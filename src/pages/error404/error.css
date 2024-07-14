@@ -1,0 +1,79 @@
+.error-container {
+  background-color: #FFF;
+}
+.error-info {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.error-info .error-img {
+  display: flex;
+  font-size: 150px;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-color);
+  font-weight: bold;
+}
+.error-info .error-img img {
+  width: 150px;
+}
+.error-info .error-header {
+  font-size: 45px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+.error-info .error-paragraph {
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 1.1;
+  color: #333;
+}
+.error-info .error-buttons {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  padding: 15px;
+  margin-top: 20px;
+}
+.error-info .error-buttons span {
+  color: #FFF;
+  font-size: 22px;
+  padding: 12px 22px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.error-info .error-buttons span:first-child {
+  background-color: var(--btn-color);
+  margin-right: 10px;
+}
+@media(max-width: 1000px) {
+  .error-info .error-img {
+    font-size: 80px;
+  }
+  .error-info .error-img img {
+    width: 80px;
+  }
+  .error-info .error-header {
+    font-size: 25px;
+  }
+  .error-info .error-paragraph {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+  .contact-container .contact {
+    font-size: 25px;
+  }
+  .contact-container .btn-container {
+    padding: 0 15px;
+  }
+}

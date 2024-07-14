@@ -1,0 +1,70 @@
+.doctorContainer {
+  background-color: #FFF;
+}
+.doctorContainer .doctorInfo {
+  border: 1px solid var(--btn-color);
+  padding: 30px 10px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-bottom: 50px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.doctorContainer .doctorInfo:hover {
+  box-shadow: -1px -3px 6px 3px #b9b6b6;
+}
+.doctorContainer img {
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.doctorContainer h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--main-color);
+  margin-top: 15px;
+}
+.doctorContainer h6 {
+  font-size: 25px;
+  color: var(--orange-color);
+}
+.doctorContainer ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.doctorContainer ul li a {
+  margin-left: 15px;
+  background-color: var(--btn-color);
+  color: white;
+  padding: 10px 15px;
+  font-size: 25px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.doctorInfo {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.doctorInfo ul {
+  padding-right: 20px !important;
+}

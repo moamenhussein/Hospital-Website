@@ -1,0 +1,123 @@
+.contact-container {
+  text-align: center;
+  margin-top: 10px;
+  background-color: #e9e9fc;
+  padding: 40px;
+}
+
+.container-row {
+  background-color: #fff;
+  margin-top: 80px;
+  padding: 40px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.container-row input:not(:nth-child(1)),
+.container-row select,
+.container-row textarea {
+  margin-top: 50px;
+}
+.container-row input,
+.container-row select,
+.container-row textarea {
+  padding: 20px 10px;
+}
+.container-row textarea {
+  resize: none;
+}
+.container-row button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: var(--orange-color) !important;
+  border: none;
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
+  font-size: 25px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.container-row button:hover {
+  opacity: 0.8;
+}
+
+.heading-contact {
+  font-size: 25px;
+  font-weight: bold;
+}
+.contact-cont {
+  background-color: var(--btn-color);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  padding: 20px;
+}
+@media(max-width: 993px) {
+  .contact-cont {
+    margin-top: 50px !important;
+  }
+}
+.contact-cont .location-icon {
+  display: flex;
+}
+.contact-cont .location-icon .location {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact-cont .location-icon svg {
+  margin-top: 3px;
+}
+.contact-cont .address {
+  font-size: 25px;
+}
+.contact-cont .social {
+  display: flex;
+  text-align: left;
+}
+@media(max-width: 900px) {
+  .contact-cont .social {
+    margin-left: -50px;
+    padding-left: 35px;
+  }
+}
+.contact-cont .social li .facebook,
+.contact-cont .social li .github,
+.contact-cont .social li .linkedin,
+.contact-cont .social li .insta,
+.contact-cont .social li .whats {
+  color: white;
+  padding: 4px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  font-size: 25px;
+  margin-left: 8px;
+  text-align: left;
+}
+.contact-cont .social li .facebook {
+  background-color: #1877f2;
+}
+.contact-cont .social li .github {
+  background-color: #6e5494;
+}
+.contact-cont .social li .linkedin {
+  background-color: #0a66c2;
+}
+.contact-cont .social li .insta {
+  background-color: #fd1d1d;
+}
+.contact-cont .social li .whats {
+  background-color: #128c7e;
+}

@@ -1,0 +1,100 @@
+.newInfo {
+  text-align: center;
+}
+.newInfo h6 {
+  font-size: 25px;
+  font-weight: bold;
+  background-image: url("../../Assets/h5.png");
+  width: fit-content;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  padding: 5px 10px;
+}
+.newInfo h4 {
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+.team {
+  border: 2px solid var(--btn-color);
+  padding: 10px 4px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.team .imageBig {
+  width: 350px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.team .imgAndNameContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.team .imgAndNameContainer .imgAndName {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.team .imgAndNameContainer .imgAndName .imageSmall {
+  width: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-left: 40px;
+
+}
+.team .imgAndNameContainer .imgAndName h6 {
+  margin-left: 10px;
+  font-size: 20px;
+  color: var(--orange-color);
+  font-weight: bold;
+}
+.team .imgAndNameContainer .date {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  margin-top: 8px;
+  color: var(--orange-color);
+  font-weight: bold;
+}
+.team .imgAndNameContainer .date svg {
+  margin-right: 8px;
+}
+.team .imgAndNameContainer .date .date-info {
+  align-items: center;
+  padding-top: 8px;
+}
+.team .parag {
+  font-size: 30px;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 10px;
+  line-height: 1.1;
+  color: var(--main-color);
+  font-weight: bold;
+}
+@media(max-width: 1000px) {
+  .team .imageBig {
+    width: 250px;
+  }
+  .team .parag {
+    font-size: 20px;
+    padding-right: 5px;
+  }
+}

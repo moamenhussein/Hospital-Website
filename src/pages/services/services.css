@@ -1,0 +1,47 @@
+.servicesRow {
+  padding: 100px 0 !important;
+}
+.servicesInfo {
+  margin: 30px 0;
+  background-color: #fafaff !important;
+}
+.columnServices {
+  background-color: white;
+  padding: 30px 50px !important;
+  border: 5px solid #fafaff;
+}
+.columnServices svg {
+  font-size: 80px;
+  color: var(--btn-color);
+}
+.columnServices h2 {
+  color: var(--main-color);
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 35px;
+}
+.columnServices p {
+  font-size: 20px;
+  color: #333;
+}
+.columnServices button {
+  padding: 25px 30px !important;
+  display: flex;
+  align-items: center;
+  background-color: #e1e2f6 !important;
+  border: none;
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.columnServices button a {
+  color: var(--main-color);
+  font-size: 20px;
+}

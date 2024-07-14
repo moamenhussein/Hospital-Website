@@ -1,0 +1,30 @@
+.loginHome {
+  background-color: #eeeefc;
+  padding: 100px 0;
+}
+.formHomeImage img {
+  width: 100%;
+  animation: mover 1s infinite linear alternate;
+  -webkit-animation: mover 1s infinite linear alternate;
+}
+@media(max-width: 1000px) {
+  .formHomeImage img {
+    margin-top: 40px;
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}

@@ -1,0 +1,57 @@
+.content-contact .container {
+  position: relative;
+  margin: auto;
+  /* left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%); */
+}
+.content-contact .container .card {
+  padding: 30px;
+  text-align: left;
+  border: none;
+  border: 2px solid #f8f0ff;
+  margin: 80px 0 80px;
+}
+.content-contact .container .card img {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #f8f0ff;
+  padding: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  /* animation: moveImage 0.2s linear infinite alternate;
+  -webkit-animation: moveImage 0.2s linear infinite alternate; */
+}
+.content-contact .container .card:hover img{
+  animation: moveImage 0.1s linear infinite alternate;
+  -webkit-animation: moveImage 0.1s linear infinite alternate;
+  animation-iteration-count: 5;
+}
+@keyframes moveImage {
+  0% {
+    left: 3%;
+  }
+  100% {
+    left: 0;
+  }
+}
+.content-contact .container .card .header {
+  margin-top: 15px;
+  color: var(--btn-color);
+  font-weight: bold;
+}
+.content-contact .container .card .info {
+  color: #333;
+}
+@media (max-width: 800px) {
+  .content-contact .container .card {
+    margin-top: 15px;
+  }
+}

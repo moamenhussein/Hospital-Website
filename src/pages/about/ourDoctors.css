@@ -1,0 +1,31 @@
+.doctor-container .info {
+  text-align: center;
+  padding: 5px 0 30px;
+}
+.doctor-container .info h5 {
+  color: var(--orange-color);
+  font-size: 25px;
+  font-weight: bold;
+  background-image: url("../../Assets/h5.png");
+  width: fit-content;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  padding: 10px 20px;
+}
+.doctor-container .info .paragraph {
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--main-color);
+  margin-top: 20px;
+}
+@media(max-width: 1000px) {
+  .doctor-container .info .paragraph {
+    font-size: 30px;
+    margin-top: 15px;
+  }
+}

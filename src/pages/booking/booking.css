@@ -1,0 +1,41 @@
+.booking-cont {
+  background-color: #FFF;
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 30px;
+}
+.book-header{
+  margin-top: 100px;
+  color: var(--main-color);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.connect-form {
+  width: 600px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  margin-top: 40px;
+  box-shadow: -1px -3px 8px 0px var(--btn-color);
+  padding: 20px;
+}
+.connect-form div input,
+.connect-form div select {
+  padding: 20px !important;
+}
+@media(max-width: 1000px) {
+  .book-header {
+    font-size: 25px;
+  }
+  .connect-form {
+    width: fit-content;
+  }
+}
+.booking-cont .contact-container {
+  width: 100% !important;
+}

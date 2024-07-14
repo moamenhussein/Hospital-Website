@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FFF !important;
+}
+* {
+  font-family: "Tajawal", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --main-color: #1f2278;
+  --orange-color: #f17732;
+  --btn-color: #565acf
+}
+section,
+footer,
+header {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 25px 0;
+  margin-bottom: 50px;
+}
+footer {
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none !important;
+}
+span {
+  display: block;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+button {
+  text-align: center;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+p {
+  line-height: 28px;
+}
+input {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  text-align: left;
+  padding: 5px 15px;
+  color: #333;
+  font-size: 16px;
+}
+
+.contact-container .contact {
+  font-size: 60px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+.contact-container .btn-container {
+  position: relative;
+  display: flex;
+  background-color: var(--btn-color);
+  width: fit-content;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  align-items: center;
+  padding: 8px 30px;
+  font-size: 25px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.contact-container .btn-container .button {
+  display: flex;
+  color: white;
+}
+.contact-container .btn-container .button svg {
+  margin-top: 3px;
+}
+.contact-container .btn-container .button span {
+  margin-left: 8px;
+}
+.contact-container .btn-container pre {
+  margin-top: 20px;
+}
+.doctor-container .info h5 {
+  margin-top: 50px;
+}
+.imgAndNameContainer .date {
+  margin-top: 12px !important;
+}

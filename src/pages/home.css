@@ -1,0 +1,182 @@
+header {
+  position: relative;
+  background-color: #f7f7ff;
+  margin-top: 0px;
+}
+header .row {
+  margin: 50px 0;
+}
+header .row h5 {
+  position: relative;
+  color: var(--btn-color);
+  font-size: 22px;
+  font-weight: bold;
+  margin: 40px 0 10px 0;
+  background-image: url("../Assets/h5.png");
+  width: fit-content;
+  padding: 5px;
+}
+header .row h5::before {
+  position: absolute;
+  content: "";
+  background-image: url("../Assets/home3.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100px;
+  top: -80px;
+  left: 150px;
+}
+header .row h5::after {
+  position: absolute;
+  content: "";
+  background-image: url("../Assets/home5.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  left: 400px;
+  top: -100px;
+  animation: moverY 1.5s infinite linear alternate;
+  -webkit-animation: moverY 1.5s infinite linear alternate;
+}
+header .row h2 {
+  position: relative;
+  color: #1f2278;
+  margin: 20px 0;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+@media (max-width: 500px) {
+  header .row h2 {
+    font-size: 30px;
+  }
+  header .row h5 {
+    font-size: 19px;
+  }
+}
+header .row h2::after {
+  position: absolute;
+  content: "";
+  background-image: url("../Assets/home4.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  left: -80px;
+  animation: mover 1s infinite linear alternate;
+  -webkit-animation: mover 1s infinite linear alternate;
+}
+header img {
+  /* position: relative; */
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+  margin-top: -40px;
+  animation: mover 1s infinite linear alternate;
+  -webkit-animation: mover 1s infinite linear alternate;
+}
+header::after {
+  position: absolute;
+  content: "";
+  background-image: url("../Assets/home1.png");
+  width: 200px;
+  height: 50px;
+  right: 100px;
+  bottom: 90px;
+  animation: moverY 1.5s infinite linear alternate;
+  -webkit-animation: moverY 1.5s infinite linear alternate;
+}
+header::before {
+  position: absolute;
+  content: "";
+  background-image: url("../Assets/home2.png");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 100px;
+  right: 50%;
+  bottom: 100px;
+  animation: mover 1s infinite linear alternate;
+  -webkit-animation: mover 1s infinite linear alternate;
+}
+@keyframes moverY {
+  0% {
+    transform: translateX(-20px);
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    -o-transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}
+@media (max-width: 1000px) {
+  header img {
+    margin-top: 10px;
+  }
+  header::after,
+  header .row h5::before,
+  header .row h5::after,
+  header::before,
+  header .row h2::after {
+    display: none;
+  }
+}
+@media(max-width: 767px) {
+  header img {
+    margin-top: 100px;
+  }
+}
+header .row button {
+  position: absolute;
+  background-color: var(--orange-color) !important;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  margin-top: 20px;
+}
+header .row button:hover {
+  opacity: 0.8;
+}
+header .row button a {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.newsInfo {
+  background-color: #eeeefc;
+  padding: 20px 0;
+}

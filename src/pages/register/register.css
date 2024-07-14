@@ -1,0 +1,65 @@
+.registerInformation {
+  margin-top: 20px;
+  background-color: #fff;
+  width: fit-content;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  padding: 100px 20px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.registerInformation input {
+  margin-top: 20px;
+  padding: 20px 300px 20px 8px;
+  border: 1px solid var(--btn-color);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  font-size: 22px;
+}
+.registerInformation button {
+  margin-top: 20px;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px !important;
+  -webkit-border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  -ms-border-radius: 15px !important;
+  -o-border-radius: 15px !important;
+  padding: 25px 0 !important;
+}
+.registerInformation .register {
+  background-color: var(--orange-color) !important;
+  border: none;
+}
+.registerInformation button a {
+  color: #fff;
+  font-size: 22px;
+}
+@media (max-width: 1000px) {
+  .registerInformation {
+    padding: 20px 5px;
+  }
+  .registerInformation input {
+    padding: 10px 100px 10px 5px;
+  }
+  .contact-container .btn-container {
+    font-size: 20px;
+  }
+}
+.registerInformation input:focus {
+  outline: none;
+}
